@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">流量悬浮窗</string>
+    <string name="float_speed_gb_per_s" translatable="false">%sGB/S</string>
+    <string name="float_speed_mb_per_s" translatable="false">%sMB/S</string>
+    <string name="float_speed_kb_per_s" translatable="false">%sKB/S</string>
+    <string name="float_speed_b_per_s" translatable="false">%sB/S</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="main_float_window">流量悬浮窗</string>
+    <string name="main_show_traffic_float">开启流量悬浮窗</string>
+    <string name="main_start_with_boot">开机自动启动</string>
+    <string name="main_refresh_interval">刷新时间间隔</string>
+    <string name="main_refresh_interval_time">%s秒</string>
+    <string name="main_split_up_down_traffic">独立显示上下行流量</string>
+    <string name="main_drag_to_status_bar">允许拖动到状态栏</string>
+    <string name="main_lock_float_view">锁定悬浮窗</string>
+    <string name="main_hide_auto">无网络时自动隐藏</string>
+    <string name="main_help">帮助</string>
+    <string name="main_can_not_show">无法显示悬浮窗</string>
+    <string name="main_contact_us">意见反馈</string>
+    <string name="main_about">关于</string>
+    <string name="main_press_again_exit_app">再按一次退出程序</string>
+
+    <string name="can_not_show_tips">若在主界面已经打开“开启流量悬浮窗”开关之后仍无法显示悬浮窗，请根据自己的手机型号按照上面的方式为本应用开启相应的权限。</string>
+    <string name="can_not_show_xiaomi_phone">小米手机</string>
+    <string name="can_not_show_xiaomi_1">1、打开【安全中心】应用程序</string>
+    <string name="can_not_show_xiaomi_2">2、进入【授权管理】页面</string>
+    <string name="can_not_show_xiaomi_3">3、点击【应用权限管理】按钮</string>
+    <string name="can_not_show_xiaomi_4">4、切换到【权限管理】</string>
+    <string name="can_not_show_xiaomi_5">5、点击【显示悬浮窗】</string>
+    <string name="can_not_show_xiaomi_6">6、找到【流量悬浮窗】应用程序</string>
+    <string name="can_not_show_xiaomi_7">7、选择【允许】</string>
+    <string name="can_not_show_huawei_phone">华为手机</string>
+    <string name="can_not_show_huawei_1">1、打开系统【设置】</string>
+    <string name="can_not_show_huawei_2">2、点击【通知管理】</string>
+    <string name="can_not_show_huawei_3">3、切换到【悬浮窗管理】</string>
+    <string name="can_not_show_huawei_4">4、找到【流量悬浮窗】并打开开关</string>
+
+    <string name="about_version">版本：%s</string>
+
+    <string name="custom_dialog_title">Custom Dialog</string>
+    <string name="custom_dialog_message">Dialog message.</string>
+    <string name="custom_dialog_button1">Button1</string>
+    <string name="custom_dialog_button2">Button2</string>
+    <string name="custom_dialog_button3">Button3</string>
+    <string name="popup_menu_message">Popup dialog</string>
+
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+
+    <string name="disclaimer">免责申明：本软件在被用户强制停止或系统意外停止的情况下可能会显示错误的数据使用量。开发者对于使用本软件造成的任何损失不承担责任。</string>
+
+</resources>

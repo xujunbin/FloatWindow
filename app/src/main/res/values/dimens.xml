@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_title_height">48dp</dimen>
+    <dimen name="navigation_drawer_width">280dp</dimen>
+
+    <dimen name="divider_small">1px</dimen>
+    <dimen name="divider_medium">2px</dimen>
+    <dimen name="divider_large">3px</dimen>
+
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+
+    <dimen name="item_text_title">@dimen/text_size_14</dimen>
+    <dimen name="item_text_content">@dimen/text_size_16</dimen>
+    <dimen name="item_text_sub">@dimen/text_size_14</dimen>
+    <dimen name="item_divider">@dimen/divider_small</dimen>
+    <dimen name="item_toggle_height">20dp</dimen>
+    <dimen name="item_toggle_width">40dp</dimen>
+    <dimen name="item_margin_horizontal">16dp</dimen>
+    <dimen name="item_margin_vertical">10dp</dimen>
+    <dimen name="item_title_margin_top">10dp</dimen>
+    <dimen name="item_title_margin_bottom">4dp</dimen>
+
+    <dimen name="dialog_radius">4dp</dimen>
+</resources>

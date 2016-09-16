@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/app_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_title_margin_top"
+                android:paddingBottom="@dimen/item_title_margin_bottom"
+                android:text="@string/can_not_show_xiaomi_phone"
+                android:textSize="@dimen/item_text_title"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <TextView
+                android:id="@+id/can_not_show_tv_xiaomi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_margin_vertical"
+                android:paddingBottom="@dimen/item_margin_vertical"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_text_content"
+                android:background="@color/item_bg_n"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_title_margin_top"
+                android:paddingBottom="@dimen/item_title_margin_bottom"
+                android:text="@string/can_not_show_huawei_phone"
+                android:textSize="@dimen/item_text_title"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <TextView
+                android:id="@+id/can_not_show_tv_huawei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_margin_vertical"
+                android:paddingBottom="@dimen/item_margin_vertical"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_text_content"
+                android:background="@color/item_bg_n"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_title_margin_bottom"
+                android:paddingBottom="@dimen/item_title_margin_top"
+                android:text="@string/can_not_show_tips"
+                android:textSize="@dimen/item_text_title"
+                android:textColor="@color/text_disable"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

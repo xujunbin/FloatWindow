@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:minWidth="280dip"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <TextView
+        style="@style/CustomDialogText.Title"
+        android:id="@+id/custom_dialog_tv_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="12dip"
+        android:text="@string/custom_dialog_title"
+        android:background="@drawable/bg_general_dialog_title"/>
+
+    <View
+        android:id="@+id/custom_dialog_v_top_divider"
+        android:layout_height="@dimen/divider_medium"
+        android:layout_width="match_parent"
+        android:background="@color/item_divider"/>
+
+    <LinearLayout
+        android:id="@+id/custom_dialog_ll_container"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="20dip"
+        android:orientation="vertical"
+        android:background="@color/dialog_bg">
+
+        <TextView
+            style="@style/CustomDialogText"
+            android:id="@+id/custom_dialog_tv_message"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/custom_dialog_message"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/custom_dialog_v_bottom_divider"
+        android:layout_height="@dimen/divider_small"
+        android:layout_width="match_parent"
+        android:background="@color/item_divider"/>
+
+    <LinearLayout
+        android:id="@+id/custom_dialog_ll_buttons"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CustomDialogText.Button"
+            android:id="@+id/custom_dialog_tv_button1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/custom_dialog_button1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bg_general_dialog_button_left"/>
+
+        <View
+            android:id="@+id/custom_dialog_v_button1_divier"
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/divider_small"
+            android:background="@color/item_divider"/>
+
+        <TextView
+            style="@style/CustomDialogText.Button"
+            android:id="@+id/custom_dialog_tv_button2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/custom_dialog_button2"
+            android:gravity="center_horizontal"/>
+
+        <View
+            android:id="@+id/custom_dialog_v_button2_divier"
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/divider_small"
+            android:background="@color/item_divider"/>
+
+        <TextView
+            style="@style/CustomDialogText.Button"
+            android:id="@+id/custom_dialog_tv_button3"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/custom_dialog_button3"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bg_general_dialog_button_right"/>
+
+    </LinearLayout>
+
+</LinearLayout>

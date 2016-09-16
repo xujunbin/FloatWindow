@@ -1,0 +1,263 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/app_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_divider"
+            android:background="@color/item_divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/item_margin_horizontal"
+            android:paddingRight="@dimen/item_margin_horizontal"
+            android:paddingTop="@dimen/item_margin_vertical"
+            android:paddingBottom="@dimen/item_margin_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@color/item_bg_n">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/main_show_traffic_float"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/item_text_content"/>
+
+            <com.ace.floatwindow.widget.ToggleButton
+                android:id="@+id/main_tb_traffic_float"
+                android:layout_width="@dimen/item_toggle_width"
+                android:layout_height="@dimen/item_toggle_height"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_divider"
+            android:background="@color/item_divider"/>
+
+        <com.ace.floatwindow.widget.ExpandableLinearLayout
+            android:id="@+id/main_ll_start_with_boot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_margin_vertical"
+                android:paddingBottom="@dimen/item_margin_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/item_bg_n">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/main_start_with_boot"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/item_text_content"/>
+
+                <com.ace.floatwindow.widget.ToggleButton
+                    android:id="@+id/main_tb_start_with_boot"
+                    android:layout_width="@dimen/item_toggle_width"
+                    android:layout_height="@dimen/item_toggle_height"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_margin_vertical"
+                android:paddingBottom="@dimen/item_margin_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/item_bg_n">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/main_split_up_down_traffic"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/item_text_content"/>
+
+                <com.ace.floatwindow.widget.ToggleButton
+                    android:id="@+id/main_tb_split_up_down_traffic"
+                    android:layout_width="@dimen/item_toggle_width"
+                    android:layout_height="@dimen/item_toggle_height"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_margin_vertical"
+                android:paddingBottom="@dimen/item_margin_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/item_bg_n">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/main_drag_to_status_bar"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/item_text_content"/>
+
+                <com.ace.floatwindow.widget.ToggleButton
+                    android:id="@+id/main_tb_drag_to_status_bar"
+                    android:layout_width="@dimen/item_toggle_width"
+                    android:layout_height="@dimen/item_toggle_height"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_margin_vertical"
+                android:paddingBottom="@dimen/item_margin_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/item_bg_n">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/main_lock_float_view"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/item_text_content"/>
+
+                <com.ace.floatwindow.widget.ToggleButton
+                    android:id="@+id/main_tb_lock_view"
+                    android:layout_width="@dimen/item_toggle_width"
+                    android:layout_height="@dimen/item_toggle_height"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/item_margin_horizontal"
+                android:paddingRight="@dimen/item_margin_horizontal"
+                android:paddingTop="@dimen/item_margin_vertical"
+                android:paddingBottom="@dimen/item_margin_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/item_bg_n">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/main_hide_auto"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/item_text_content"/>
+
+                <com.ace.floatwindow.widget.ToggleButton
+                    android:id="@+id/main_tb_auto_hide"
+                    android:layout_width="@dimen/item_toggle_width"
+                    android:layout_height="@dimen/item_toggle_height"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_divider"
+                android:background="@color/item_divider"/>
+
+            <LinearLayout
+                android:id="@+id/main_ll_refresh_interval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/item_margin_horizontal"
+                    android:paddingRight="@dimen/item_margin_horizontal"
+                    android:paddingTop="@dimen/item_margin_vertical"
+                    android:paddingBottom="@dimen/item_margin_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_item">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/main_refresh_interval"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/item_text_content"/>
+
+                    <TextView
+                        android:id="@+id/main_tv_refresh_interval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="2dp"
+                        android:textSize="@dimen/item_text_sub"
+                        android:textColor="@color/text_disable"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/arrow_right"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/item_divider"
+                    android:background="@color/item_divider"/>
+
+            </LinearLayout>
+
+        </com.ace.floatwindow.widget.ExpandableLinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
